@@ -7,22 +7,15 @@ import Nav from "@/components/elements/Nav";
 import React, { useEffect, useState } from "react";
 
 const Page = () => {
-  const [client, setClient] = useState(false);
-
-  useEffect(() => {
-    setClient(true);
-  }, []);
   return (
-    client && (
-      <main className="">
-        <div>
-          <Nav />
-          <Hero />
-          <MyScores />
-          <About />
-        </div>
-      </main>
-    )
+    <main className="">
+      <div>
+        <Nav />
+        <Hero />
+        <MyScores />
+        <About />
+      </div>
+    </main>
   );
 };
 

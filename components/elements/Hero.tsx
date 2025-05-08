@@ -1,8 +1,11 @@
 "use client";
 
-import Animation from "../ui/Animation";
+import dynamic from "next/dynamic";
 import { Button } from "../ui/button";
 import { TextGenerateEffect } from "../ui/TextGenerateEffect";
+const Animation = dynamic(() => import("@/components/ui/Animation"), {
+  ssr: false,
+});
 
 const Hero = () => {
   return (

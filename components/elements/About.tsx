@@ -1,7 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import DicussAni from "../ui/DicussAni";
+import dynamic from "next/dynamic";
+const DicussAni = dynamic(() => import("@/components/ui/DicussAni"), {
+  ssr: false,
+});
 
 const About = () => {
   const [isStopped, setIsStopped] = useState(false);
