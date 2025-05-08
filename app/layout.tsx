@@ -20,9 +20,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </Head>
       <body className={inter.className}>
         <div className="max-w-[1400px] mx-auto">{children}</div>
       </body>
