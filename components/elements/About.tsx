@@ -1,6 +1,9 @@
 "use client";
 
-import DicussAni from "../ui/DicussAni";
+import dynamic from "next/dynamic";
+const DicussAni = dynamic(() => import("@/components/ui/DicussAni"), {
+  ssr: false,
+});
 
 const About = () => {
   return (
