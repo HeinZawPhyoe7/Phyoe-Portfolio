@@ -1,26 +1,12 @@
-import React, { useState } from "react";
-import Lottie from "react-lottie";
-import animationData from "@/public/Dicuss-Ani.json";
+"use client";
 
-const DicussAni = ({ isStopped, isPaused, setIsStopped, setIsPaused }: any) => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+import Lottie from "lottie-react";
+import LottieTwo from "@/public/Dicuss-Ani.json";
 
+const DicussAni = () => {
   return (
-    <div>
-      <Lottie
-        options={defaultOptions}
-        height={400}
-        width={400}
-        isStopped={isStopped}
-        isPaused={isPaused}
-      />
+    <div className="max-w-52">
+      <Lottie animationData={LottieTwo} loop={true} />;
     </div>
   );
 };

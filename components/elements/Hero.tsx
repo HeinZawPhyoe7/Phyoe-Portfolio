@@ -9,7 +9,7 @@ const Animation = dynamic(() => import("@/components/ui/Animation"), {
 
 const Hero = () => {
   return (
-    <div className="pt-24 pb-10">
+    <div className="pt-24 pb-10 px-[350px]">
       <div className="grid grid-cols-2 ">
         <div className="col-span-1 space-y-2">
           <div className="text-[40px] md:text-5xl lg:text-6xl font-bold font-serif pb-2">

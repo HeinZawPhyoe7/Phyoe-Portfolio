@@ -8,8 +8,8 @@ import React, { useEffect, useState } from "react";
 
 const Page = () => {
   return (
-    <main className="">
-      <div>
+    <main className="min-h-screen pb-[2000px]">
+      <div className="space-y-20">
         <Nav />
         <Hero />
         <MyScores />

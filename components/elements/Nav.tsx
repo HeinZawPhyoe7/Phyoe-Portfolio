@@ -1,3 +1,5 @@
+"use client";
+
 import { cn } from "@/lib/utils";
 import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 import Link from "next/link";
@@ -54,7 +56,7 @@ const Nav = () => {
     },
   ];
   return (
-    <div>
+    <div className="px-[250px]">
       <div className="flex justify-between items-center px-4 py-4 font-serif">
         <div className="font-mono font-semibold text-xl">
           Hein Zaw <span className="block">Phyoe.</span>
