@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { ThreeDCardDemo } from "./MyThreeDCardEffect";
 const DicussAni = dynamic(() => import("@/components/ui/DicussAni"), {
   ssr: false,
 });

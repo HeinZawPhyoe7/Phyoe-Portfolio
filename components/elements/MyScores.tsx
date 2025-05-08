@@ -33,7 +33,7 @@ const MyScores = () => {
       <div className="grid grid-cols-3 gap-4">
         {myScoreList.map((score, index) => (
           <div
-            className="col-span-1 rounded-md border-2 border-violet-500 py-6 space-y-4"
+            className="col-span-1 rounded-md border-2 border-violet-500 py-6 space-y-4 hover:border-emerald-400 duration-500 cursor-pointer hover:outline hover:outline-emerald-300"
             key={index}
           >
             <div className="flex justify-center items-center">
