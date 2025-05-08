@@ -65,9 +65,9 @@ const Nav = () => {
               href={menu.href}
               className={cn(
                 "hover:border-b-2 hover:border-b-indigo-400 cursor-pointer pb-1",
-                menu.id === 2 && "hover:border-b-red-400",
-                menu.id === 3 && "hover:border-b-green-400",
-                menu.id === 4 && "hover:border-b-yellow-400"
+                menu.id === 4 && "hover:border-b-red-400",
+                menu.id === 2 && "hover:border-b-green-400",
+                menu.id === 3 && "hover:border-b-yellow-400"
               )}
               key={menu.id}
             >
