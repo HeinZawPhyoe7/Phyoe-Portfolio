@@ -6,7 +6,7 @@ import MyScores from "@/components/elements/MyScores";
 import Nav from "@/components/elements/Nav";
 import React, { useEffect, useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [client, setClient] = useState(false);
 
   useEffect(() => {
@@ -26,4 +26,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
