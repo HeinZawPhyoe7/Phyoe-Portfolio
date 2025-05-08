@@ -1,5 +1,6 @@
-import Hero from "@/components/Hero";
-import Nav from "@/components/Nav";
+import About from "@/components/elements/About";
+import Hero from "@/components/elements/Hero";
+import Nav from "@/components/elements/Nav";
 import React from "react";
 
 const page = () => {
@@ -8,6 +9,7 @@ const page = () => {
       <div>
         <Nav />
         <Hero />
+        <About />
       </div>
     </main>
   );

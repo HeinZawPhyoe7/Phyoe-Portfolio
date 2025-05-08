@@ -1,6 +1,8 @@
-import Lottie from "lottie-react";
+"use client";
+
 import React, { useState } from "react";
 import animationData from "@/public/Animation .json";
+import Lottie from "react-lottie";
 
 const Animation = () => {
   const defaultOptions = {
