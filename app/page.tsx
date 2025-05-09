@@ -1,6 +1,7 @@
 "use client";
 
 import About from "@/components/elements/About";
+import ContactInfo from "@/components/elements/ContactInfo";
 import Hero from "@/components/elements/Hero";
 import MyProjects from "@/components/elements/MyProjects";
 import MyScores from "@/components/elements/MyScores";
@@ -9,13 +10,14 @@ import React, { useEffect, useState } from "react";
 
 const Page = () => {
   return (
-    <main className="min-h-screen pb-[2000px]">
+    <main className="pb-[2000px]">
       <div className="space-y-20">
         <Nav />
         <Hero />
         <MyScores />
         <About />
-        {/* <MyProjects /> */}
+        <MyProjects />
+        <ContactInfo />
       </div>
     </main>
   );
