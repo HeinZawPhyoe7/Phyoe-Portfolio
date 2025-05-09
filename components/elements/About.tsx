@@ -7,16 +7,16 @@ const DicussAni = dynamic(() => import("@/components/ui/DicussAni"), {
 
 const About = () => {
   return (
-    <div
-      className="px-[150px] flex justify-between items-center text-center"
-      id="About"
-    >
-      <DicussAni />
+    <div className="px-[80px] grid grid-cols-2" id="About">
+      <div className="h-[400px]">
+        {/* Adjust height as needed */}
+        <DicussAni />
+      </div>
       <div className="pt-28">
         <div className="text-6xl text-center font-serif font-semibold">
           About Me
         </div>
-        <p className="font-serif text-xl text-muted-foreground font-medium w-10/12 pt-7 mx-auto text-start">
+        <p className="font-serif text-xl text-muted-foreground font-medium px-36 pt-7 mx-auto text-ce">
           I&apos;m a Freelance Junior Fullstack Developer with hands-on
           experience building and maintaining a wide range of web applications,
           including social media platforms, CRUD systems, eCommerce websites,

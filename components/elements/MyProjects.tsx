@@ -40,7 +40,7 @@ const MyProjects = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 px-[100px]">
         {myProjectList.map((project, index) => (
           <div key={index}>
             <ThreeDCardDemo project={project} />

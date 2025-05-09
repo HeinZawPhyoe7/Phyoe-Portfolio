@@ -6,7 +6,7 @@ import LottieTwo from "@/public/Dicuss-Ani.json";
 const DicussAni = () => {
   return (
     <div className="">
-      <div className=" w-[1000px]">
+      <div className="">
         <Lottie animationData={LottieTwo} loop={true} />
       </div>
     </div>
