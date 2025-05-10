@@ -44,11 +44,11 @@ const MyScores = () => {
     },
   ];
   return (
-    <div className="px-[100px]" id="skills">
+    <div className="lg:px-[100px] px-4" id="skills">
       <div className="flex justify-center items-center pb-10 text-xl ">
         My Skills
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-4">
         {myScoreList.map((score, index) => (
           <div
             className={cn(

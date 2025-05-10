@@ -8,19 +8,23 @@ const Animation = dynamic(() => import("@/components/ui/Animation"), {
 
 const Hero = () => {
   return (
-    <div className="pt-24 pb-10 px-[350px]" id="hero">
-      <div className="grid grid-cols-2 ">
+    <div className="pt-24 pb-10 lg:px-[350px] md:px-[100px] px-4" id="hero">
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:h-auto">
+        <div className="col-span-1 lg:hidden h-[300px] px-0 block mb-20">
+          <Animation />
+        </div>
+
         <div className="col-span-1 space-y-2">
           <div className="text-[40px] md:text-5xl lg:text-6xl font-bold font-serif pb-2">
             Hello I&apos;m
           </div>
           <TextGenerateEffect
             className="text-[20px] font-bold font-serif"
-            words="Hein Zaw Phyoe An"
+            words="Hein Zaw Phyoe"
           />
           <TextGenerateEffect
             className="text-[40px] font-bold font-serif"
-            words="Full-Stack Developer"
+            words="An Full-Stack Developer"
           />
           <p className="font-serif text-xl text-muted-foreground font-medium w-10/12 pb-3">
             A passionate developer crafting full-stack web apps that solve real
@@ -33,7 +37,8 @@ const Hero = () => {
             Start A Project Together
           </button>
         </div>
-        <div className="col-span-1">
+
+        <div className="col-span-1 hidden lg:block">
           <Animation />
         </div>
       </div>

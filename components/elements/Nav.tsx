@@ -65,12 +65,12 @@ const Nav = () => {
     },
   ];
   return (
-    <div className="px-[250px]">
+    <div className="lg:px-[250px] md:[100px] px-4">
       <div className="flex justify-between items-center px-4 py-4 font-serif">
         <div className="font-mono font-semibold text-xl">
           Hein Zaw <span className="block">Phyoe.</span>
         </div>
-        <div className="flex justify-between items-center gap-6 ">
+        <div className="lg:flex hidden justify-between items-center gap-6 ">
           {menuList.map((menu, index) => (
             <Link
               href={menu.href}
@@ -86,7 +86,7 @@ const Nav = () => {
             </Link>
           ))}
         </div>
-        <div className="flex justify-between items-center gap-x-6 text-indigo-400">
+        <div className="lg:flex hidden justify-between items-center gap-x-6 text-indigo-400">
           {socialIconList.map((item, index) => (
             <a
               href={item.href}

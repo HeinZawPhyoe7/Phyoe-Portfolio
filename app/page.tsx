@@ -11,7 +11,7 @@ import React, { useEffect, useState } from "react";
 const Page = () => {
   return (
     <main className="">
-      <div className="space-y-20">
+      <div className="lg:space-y-20 md:space-y-4">
         <Nav />
         <Hero />
         <MyScores />

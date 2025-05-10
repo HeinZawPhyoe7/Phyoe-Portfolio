@@ -6,13 +6,15 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="w-full pb-10 mb-[100px] bg-orange-50" id="contact">
-      <div className="mx-40">
-        <div className="flex justify-between items-center pt-10">
-          <div className="text-violet-600 text-2xl font-serif font-semibold">
+      <div className="lg:mx-40 md:mx-0">
+        <div className="grid lg:grid-cols-3 md:grid-cols-1 pt-10">
+          <div className="col-span-1 text-violet-600 text-2xl lg:mx-0 lg:my-auto mb-12 font-serif font-semibold">
             Let&apos; Start A Project Together
           </div>
-          <div>
-            <h3 className="text-3xl font-serif font-bold mb-7">Contact Info</h3>
+          <div className="col-span-1 lg:mx-auto md:mx-0 mb-12">
+            <h3 className="text-3xl font-serif font-bold lg:mb-7 mb-4">
+              Contact Info
+            </h3>
             <div className="mb-4">
               <h5 className="text-xl opacity-85 font-serif font-bold">Email</h5>
               <p className="text-muted-foreground opacity-90">
@@ -35,9 +37,9 @@ const Footer = () => {
               <p className="text-muted-foreground opacity-90">Bangkok</p>
             </div>
           </div>
-          <div>
+          <div className="col-span-1 lg:mx-auto">
             <h5 className="text-3xl font-serif font-bold mb-4">Social Media</h5>
-            <div className="flex justify-center items-center gap-3">
+            <div className="grid grid-cols-1 gap-3">
               <Twitter />
               <Youtube />
               <Mail />
