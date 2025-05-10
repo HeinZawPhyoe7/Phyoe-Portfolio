@@ -7,7 +7,7 @@ const DicussAni = dynamic(() => import("@/components/ui/DicussAni"), {
 
 const About = () => {
   return (
-    <div className="px-[80px] grid grid-cols-2" id="About">
+    <div className="px-[80px] py-32 grid grid-cols-2 bg-orange-50" id="about">
       <div className="h-[400px]">
         {/* Adjust height as needed */}
         <DicussAni />
@@ -16,7 +16,7 @@ const About = () => {
         <div className="text-6xl text-center font-serif font-semibold">
           About Me
         </div>
-        <p className="font-serif text-xl text-muted-foreground font-medium px-36 pt-7 mx-auto text-ce">
+        <p className="font-serif text-xl text-muted-foreground font-medium px-36 pt-7 mx-auto text-start">
           I&apos;m a Freelance Junior Fullstack Developer with hands-on
           experience building and maintaining a wide range of web applications,
           including social media platforms, CRUD systems, eCommerce websites,

@@ -10,7 +10,7 @@ import React, { useEffect, useState } from "react";
 
 const Page = () => {
   return (
-    <main className="pb-[2000px]">
+    <main className="">
       <div className="space-y-20">
         <Nav />
         <Hero />

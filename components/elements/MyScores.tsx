@@ -1,21 +1,21 @@
 "use client";
 
+import { cn } from "@/lib/utils";
 import { Plus } from "lucide-react";
-import { div } from "motion/react-client";
 import React from "react";
 
 const MyScores = () => {
   const myScoreList = [
     {
-      name: "Laravel",
+      name: "Recent Projects",
       score: 2,
-      point: 10,
+      point: 5,
       id: 1,
     },
     {
-      name: "React",
+      name: "Daily Learn Time Hours",
       score: 3,
-      point: 15,
+      point: 8,
       id: 2,
     },
     {
@@ -24,16 +24,37 @@ const MyScores = () => {
       point: 1000,
       id: 3,
     },
+    {
+      name: "Laravel Projects",
+      score: 5,
+      point: "10",
+      id: 4,
+    },
+    {
+      name: "React Projects",
+      score: 5,
+      point: "5",
+      id: 5,
+    },
+    {
+      name: "Mysql Databases",
+      score: 5,
+      point: "10",
+      id: 6,
+    },
   ];
   return (
-    <div className="px-[100px]">
+    <div className="px-[100px]" id="skills">
       <div className="flex justify-center items-center pb-10 text-xl ">
-        My Projects
+        My Skills
       </div>
       <div className="grid grid-cols-3 gap-4">
         {myScoreList.map((score, index) => (
           <div
-            className="col-span-1 rounded-md border-2 border-violet-500 py-6 space-y-4 hover:border-emerald-400 duration-500 cursor-pointer"
+            className={cn(
+              "col-span-1 rounded-md border-2 border-violet-500 py-6 space-y-4 hover:border-emerald-400 duration-500 cursor-pointer",
+              score.id > 3 && "border-red-500 hover:border-sky-500"
+            )}
             key={index}
           >
             <div className="flex justify-center items-center">

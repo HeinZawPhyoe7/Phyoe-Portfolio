@@ -39,7 +39,7 @@ const MyProjects = () => {
   ];
 
   return (
-    <div>
+    <div id="projects">
       <div className="grid grid-cols-3 px-[100px]">
         {myProjectList.map((project, index) => (
           <div key={index}>
