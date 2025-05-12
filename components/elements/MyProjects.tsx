@@ -40,7 +40,7 @@ const MyProjects = () => {
 
   return (
     <div id="projects">
-      <div className="grid lg:grid-cols-3 md:grid-cols-1 lg:px-[100px] md:px-0 md:py-0">
+      <div className="grid lg:grid-cols-3 md:grid-cols-1 lg:px-[100px] px-4 md:py-0">
         {myProjectList.map((project, index) => (
           <div key={index}>
             <ThreeDCardDemo project={project} />
