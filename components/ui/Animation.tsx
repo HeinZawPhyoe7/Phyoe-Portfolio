@@ -1,6 +1,6 @@
 "use client";
 
-import LottieTwo from "@/public/Animation .json";
+import LottieTwo from "@/public/Animation.json";
 import Lottie from "lottie-react";
 
 const Animation = () => {

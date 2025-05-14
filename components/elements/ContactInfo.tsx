@@ -1,12 +1,12 @@
 "use client";
 
-import { Mail, Twitter, Youtube } from "lucide-react";
+import { Github, Mail, Twitter, Youtube } from "lucide-react";
 import React from "react";
 
 const Footer = () => {
   return (
     <footer className="w-full pb-10 mb-[100px] bg-orange-50" id="contact">
-      <div className="lg:mx-40 md:mx-0 px-4">
+      <div className="xl:mx-40 lg:mx-4 md:mx-0 px-4">
         <div className="grid lg:grid-cols-3 md:grid-cols-1 pt-10">
           <div className="col-span-1 text-violet-600 text-2xl lg:mx-0 lg:my-auto mb-12 font-serif font-semibold">
             Let&apos; Start A Project Together
@@ -39,10 +39,11 @@ const Footer = () => {
           </div>
           <div className="col-span-1 lg:mx-auto">
             <h5 className="text-3xl font-serif font-bold mb-4">Social Media</h5>
-            <div className="grid grid-cols-1 gap-3">
+            <div className="grid grid-cols-1 gap-3 pt-4">
               <Twitter />
               <Youtube />
               <Mail />
+              <Github />
             </div>
           </div>
         </div>

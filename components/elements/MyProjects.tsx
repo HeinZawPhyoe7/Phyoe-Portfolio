@@ -36,11 +36,21 @@ const MyProjects = () => {
       isLike: false,
       totalLikes: 38,
     },
+    {
+      name: "Todo List Project",
+      description:
+        "Social media app with user authentication, dynamic posts, image uploads, and secure content management, offering a seamless user experience inspired by core Facebook features.",
+      id: 4,
+      img: FirstImage,
+      href: "https://twitter.com/mannupaaji",
+      isLike: false,
+      totalLikes: 12,
+    },
   ];
 
   return (
     <div id="projects">
-      <div className="grid lg:grid-cols-3 md:grid-cols-1 lg:px-[100px] px-4 md:py-0">
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:px-[20px] xl:px-[100px] px-4 md:py-0">
         {myProjectList.map((project, index) => (
           <div key={index}>
             <ThreeDCardDemo project={project} />

@@ -6,17 +6,18 @@ import Hero from "@/components/elements/Hero";
 import MyProjects from "@/components/elements/MyProjects";
 import MyScores from "@/components/elements/MyScores";
 import Nav from "@/components/elements/Nav";
-import React, { useEffect, useState } from "react";
+import Questions from "@/components/elements/Questions";
 
 const Page = () => {
   return (
     <main className="">
-      <div className="lg:space-y-20 md:space-y-4">
+      <div className="xl:space-y-20 space-y-4">
         <Nav />
         <Hero />
         <MyScores />
         <About />
         <MyProjects />
+        {/* <Questions /> */}
         <ContactInfo />
       </div>
     </main>
