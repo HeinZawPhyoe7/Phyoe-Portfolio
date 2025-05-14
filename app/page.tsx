@@ -19,7 +19,7 @@ const Page = () => {
         <About />
         <MyProjects />
         <Message />
-        {/* <Questions /> */}
+        <Questions />
         <ContactInfo />
       </div>
     </main>

@@ -17,7 +17,7 @@ const About = () => {
           {/* Adjust height as needed */}
           <DicussAni />
         </div>
-        <div className="md:hidden sm:h-[400px] h-[500px]">
+        <div className="md:hidden block sm:h-[400px] h-[500px]">
           <WriteProgramAni />
         </div>
       </div>
