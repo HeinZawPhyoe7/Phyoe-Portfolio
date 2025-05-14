@@ -90,7 +90,7 @@ const Nav = () => {
             </SheetTrigger>
             <SheetContent>
               <SheetHeader>
-                <SheetTitle>Are you</SheetTitle>
+                <SheetTitle>Navbar</SheetTitle>
                 <div className="flex flex-col justify-start">
                   {menuList.map((menu, index) => (
                     <SheetClose asChild key={menu.id}>

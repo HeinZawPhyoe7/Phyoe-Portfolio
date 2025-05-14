@@ -3,6 +3,7 @@
 import About from "@/components/elements/About";
 import ContactInfo from "@/components/elements/ContactInfo";
 import Hero from "@/components/elements/Hero";
+import Message from "@/components/elements/Message";
 import MyProjects from "@/components/elements/MyProjects";
 import MyScores from "@/components/elements/MyScores";
 import Nav from "@/components/elements/Nav";
@@ -17,6 +18,7 @@ const Page = () => {
         <MyScores />
         <About />
         <MyProjects />
+        <Message />
         {/* <Questions /> */}
         <ContactInfo />
       </div>
