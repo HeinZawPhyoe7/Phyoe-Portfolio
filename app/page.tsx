@@ -18,8 +18,8 @@ const Page = () => {
         <MyScores />
         <About />
         <MyProjects />
-        <Message />
-        {/* <Questions /> */}
+        {/* <Message />
+        <Questions /> */}
         <ContactInfo />
       </div>
     </main>
