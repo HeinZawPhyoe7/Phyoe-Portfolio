@@ -39,11 +39,19 @@ const Footer = () => {
           </div>
           <div className="col-span-1 lg:mx-auto">
             <h5 className="text-3xl font-serif font-bold mb-4">Social Media</h5>
-            <div className="grid grid-cols-1 gap-3 pt-4">
-              <Twitter />
-              <Youtube />
-              <Mail />
-              <Github />
+            <div className="grid grid-cols-1 gap-4 pt-4">
+              <div className="flex justify-between items-center">
+                <Twitter />
+              </div>
+              <div>
+                <Youtube />
+              </div>
+              <div>
+                <Mail />
+              </div>
+              <div>
+                <Github />
+              </div>
             </div>
           </div>
         </div>
