@@ -8,11 +8,11 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import dynamic from "next/dynamic";
-const ProgramAni = dynamic(() => import("@/components/ui/ProgramAni"), {
+const ProgramAni = dynamic(() => import("../ui/ProgramAni"), {
   ssr: false,
 });
 
-const QuestionsAni = dynamic(() => import("@/components/ui/QuestionsAni"), {
+const QuestionsAni = dynamic(() => import("../ui/QuestionsAni"), {
   ssr: false,
 });
 
