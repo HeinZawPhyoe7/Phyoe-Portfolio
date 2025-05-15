@@ -16,13 +16,13 @@ const QuestionsAni = dynamic(() => import("../ui/QuestionsAni"), {
   ssr: false,
 });
 
-const [isClient, setIsClient] = useState(false);
-
-useEffect(() => {
-  setIsClient(true);
-}, []);
-
 const Questions = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   return (
     isClient && (
       <div className="" id="questions">
