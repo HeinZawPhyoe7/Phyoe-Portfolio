@@ -10,7 +10,7 @@ import ProgramAni from "../ui/ProgramAni";
 
 const Questions = () => {
   return (
-    <div className="">
+    <div className="" id="questions">
       <div className="grid md:grid-cols-2 grid-cols-1">
         <div className="col-span-1 flex justify-center items-center">
           <div className="hidden md:block lg:h-[600px] md:h-[450px]">

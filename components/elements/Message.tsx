@@ -36,7 +36,7 @@ const Message = () => {
   };
 
   return (
-    <div className="bg-orange-50">
+    <div className="bg-orange-50" id="messages">
       <div className="grid md:grid-cols-2 grid-cols-1 pt-20 md:pb-20 pb-10 xl:px-[100px] lg:px-[100px] px-4">
         <div className="col-span-1 text-start pb-8">
           <div className="font-bold font-serif text-4xl md:pl-32 md:pr-10">
@@ -52,8 +52,8 @@ const Message = () => {
               className="md:text-[20px] font-bold font-serif pb-6"
             />
             <p className="font-serif text-xl text-muted-foreground font-medium ">
-              I'm always open to new ideas and collaborations. If you have a
-              project in mind, let&apos;s connect and bring it to life!
+              I&apos;m always open to new ideas and collaborations. If you have
+              a project in mind, let&apos;s connect and bring it to life!
             </p>
           </div>
         </div>

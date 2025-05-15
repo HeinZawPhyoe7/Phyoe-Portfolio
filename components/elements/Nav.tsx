@@ -37,8 +37,18 @@ const Nav = () => {
       href: "#projects",
     },
     {
-      name: "Contact",
+      name: "Messages",
       id: 5,
+      href: "#messages",
+    },
+    {
+      name: "Questions",
+      id: 6,
+      href: "#questions",
+    },
+    {
+      name: "Contact",
+      id: 7,
       href: "#contact",
     },
   ];
@@ -76,7 +86,7 @@ const Nav = () => {
 
   const [sheetOpen, setSheetOpen] = useState(false);
   return (
-    <div className="xl:px-[250px] lg:[150px] md:[100px] px-4">
+    <div className="xl:px-[200px] lg:[150px] md:[100px] px-4">
       <div className="flex justify-between items-center px-4 py-4 font-serif">
         <div className="font-mono font-semibold text-xl">
           Hein Zaw <span className="block">Phyoe.</span>
@@ -104,7 +114,9 @@ const Nav = () => {
                           menu.id === 4 && "text-red-400",
                           menu.id === 2 && "text-green-400",
                           menu.id === 3 && "text-yellow-400",
-                          menu.id === 5 && "text-violet-400"
+                          menu.id === 5 && "text-violet-400",
+                          menu.id === 6 && "text-orange-400",
+                          menu.id === 7 && "text-gray-400"
                         )}
                         key={menu.id}
                       >
@@ -126,7 +138,9 @@ const Nav = () => {
                 menu.id === 4 && "hover:border-b-red-400",
                 menu.id === 2 && "hover:border-b-green-400",
                 menu.id === 3 && "hover:border-b-yellow-400",
-                menu.id === 5 && "hover:border-b-violet-400"
+                menu.id === 5 && "hover:border-b-violet-400",
+                menu.id === 6 && "hover:border-b-orange-400",
+                menu.id === 7 && "hover:border-b-gray-400"
               )}
               key={menu.id}
             >

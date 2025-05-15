@@ -39,7 +39,7 @@ const MyProjects = () => {
     {
       name: "Todo List Project",
       description:
-        "Social media app with user authentication, dynamic posts, image uploads, and secure content management, offering a seamless user experience inspired by core Facebook features.",
+        "A simple and efficient To-Do List application designed to help users manage daily tasks with ease.",
       id: 4,
       img: FirstImage,
       href: "https://twitter.com/mannupaaji",

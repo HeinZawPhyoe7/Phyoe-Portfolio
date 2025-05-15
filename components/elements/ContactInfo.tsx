@@ -40,17 +40,45 @@ const Footer = () => {
           <div className="col-span-1 lg:mx-auto">
             <h5 className="text-3xl font-serif font-bold mb-4">Social Media</h5>
             <div className="grid grid-cols-1 gap-4 pt-4">
-              <div className="flex justify-between items-center">
+              <div className="flex justify-start gap-6 mb-2 items-center">
                 <Twitter />
+                <a
+                  href="@Phyoe28977"
+                  target="__blank"
+                  className="font-serif text-blue-400 font-bold text-xl"
+                >
+                  Twitter
+                </a>
               </div>
-              <div>
+              <div className="flex justify-start gap-6 mb-2 items-center">
                 <Youtube />
+                <a
+                  href=""
+                  target="__blank"
+                  className="font-serif text-blue-400 font-bold text-xl"
+                >
+                  Youtube
+                </a>
               </div>
-              <div>
+              <div className="flex justify-start gap-6 mb-2 items-center">
                 <Mail />
+                <a
+                  href=""
+                  target="__blank"
+                  className="font-serif text-blue-400 font-bold text-xl"
+                >
+                  Mail
+                </a>
               </div>
-              <div>
+              <div className="flex justify-start gap-6 mb-2 items-center">
                 <Github />
+                <a
+                  href="https://github.com/HeinZawPhyoe7"
+                  target="__blank"
+                  className="font-serif text-blue-400 font-bold text-xl"
+                >
+                  Github
+                </a>
               </div>
             </div>
           </div>
