@@ -18,7 +18,7 @@ const Page = () => {
         <MyScores />
         <About />
         <MyProjects />
-        <Message />
+        {/* <Message /> */}
         <Questions />
         <ContactInfo />
       </div>
