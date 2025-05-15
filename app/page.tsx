@@ -15,8 +15,8 @@ const Page = () => {
       <div className="xl:space-y-20 space-y-4">
         <Nav />
         <Hero />
-        {/* <MyScores />
-        <About /> */}
+        <MyScores />
+        <About />
         <MyProjects />
         <Message />
         <Questions />

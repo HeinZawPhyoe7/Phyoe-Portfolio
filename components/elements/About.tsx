@@ -1,10 +1,16 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import WriteProgramAni from "../ui/WriteProgramAni";
 const DicussAni = dynamic(() => import("@/components/ui/DicussAni"), {
   ssr: false,
 });
+
+const WriteProgramAni = dynamic(
+  () => import("@/components/ui/WriteProgramAni"),
+  {
+    ssr: false,
+  }
+);
 
 const About = () => {
   return (
