@@ -1,12 +1,18 @@
 import React from "react";
-import QuestionsAni from "../ui/QuestionsAni";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import ProgramAni from "../ui/ProgramAni";
+import dynamic from "next/dynamic";
+const ProgramAni = dynamic(() => import("@/components/ui/ProgramAni"), {
+  ssr: false,
+});
+
+const QuestionsAni = dynamic(() => import("@/components/ui/QuestionsAni"), {
+  ssr: false,
+});
 
 const Questions = () => {
   return (

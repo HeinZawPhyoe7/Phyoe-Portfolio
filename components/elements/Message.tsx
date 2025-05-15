@@ -76,7 +76,7 @@ const Message = () => {
           </div>
           <div className="pb-6">
             <textarea
-              className="border gap-4 h-40 w-[400px] md:w-[530px]"
+              className="border p-2 gap-4 h-40 w-[400px] md:w-[530px]"
               value={message}
               placeholder="Your Message..."
               onChange={(e) => setMessage(e.target.value)}
