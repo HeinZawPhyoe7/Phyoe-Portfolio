@@ -13,14 +13,14 @@ const Page = () => {
   return (
     <main className="">
       <div className="xl:space-y-20 space-y-4">
-        {/* <Nav />
+        <Nav />
         <Hero />
         <MyScores />
         <About />
         <MyProjects />
         <Message />
         <Questions />
-        <ContactInfo /> */}
+        <ContactInfo />
       </div>
     </main>
   );
