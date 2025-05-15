@@ -17,10 +17,10 @@ const Page = () => {
         <Hero />
         {/* <MyScores />
         <About /> */}
-        {/* <MyProjects />
+        <MyProjects />
         <Message />
         <Questions />
-        <ContactInfo /> */}
+        <ContactInfo />
       </div>
     </main>
   );
