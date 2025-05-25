@@ -46,23 +46,31 @@ const Questions = () => {
             <div>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
-                  <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                  <AccordionTrigger>
+                    Is your portfolio responsive?
+                  </AccordionTrigger>
                   <AccordionContent>
-                    Yes. It adheres to the WAI-ARIA design pattern.
+                    Absolutely. It&apos;s fully responsive and optimized for all
+                    screen sizes—from desktops to tablets and mobile phones.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
-                  <AccordionTrigger>Is it styled?</AccordionTrigger>
+                  <AccordionTrigger>
+                    Can I collaborate with you?
+                  </AccordionTrigger>
                   <AccordionContent>
-                    Yes. It comes with default styles that matches the other
-                    components&apos; aesthetic.
+                    Absolutely! I&apos;m open to freelance, part-time, or
+                    collaborative projects. Just reach out via the contact
+                    section.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
-                  <AccordionTrigger>Is it animated?</AccordionTrigger>
+                  <AccordionTrigger>
+                    Is it maintained regularly?
+                  </AccordionTrigger>
                   <AccordionContent>
-                    Yes. It&apos;s animated by default, but you can disable it
-                    if you prefer.
+                    Yes. I keep the content, projects, and dependencies up to
+                    date as I grow and learn new technologies.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
