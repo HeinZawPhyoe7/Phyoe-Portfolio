@@ -85,7 +85,7 @@ const Nav = () => {
 
   const [sheetOpen, setSheetOpen] = useState(false);
   return (
-    <div className="xl:px-[200px] lg:[150px] md:[100px] px-4">
+    <div className="xl:px-[150px] lg:px-[110px] md:px-[100px] px-4">
       <div className="flex justify-between items-center px-4 py-4 font-serif">
         <div className="font-mono font-semibold text-xl">
           Hein Zaw <span className="block">Phyoe.</span>

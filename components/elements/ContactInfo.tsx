@@ -45,7 +45,7 @@ const Footer = () => {
                 <a
                   href="@Phyoe28977"
                   target="__blank"
-                  className="font-serif text-blue-400 font-bold text-xl"
+                  className="font-serif text-blue-400 text-xl"
                 >
                   Twitter
                 </a>
@@ -55,7 +55,7 @@ const Footer = () => {
                 <a
                   href=""
                   target="__blank"
-                  className="font-serif text-blue-400 font-bold text-xl"
+                  className="font-serif text-blue-400 text-xl"
                 >
                   Youtube
                 </a>
@@ -65,7 +65,7 @@ const Footer = () => {
                 <a
                   href=""
                   target="__blank"
-                  className="font-serif text-blue-400 font-bold text-xl"
+                  className="font-serif text-blue-400 text-xl"
                 >
                   Mail
                 </a>
@@ -75,7 +75,7 @@ const Footer = () => {
                 <a
                   href="https://github.com/HeinZawPhyoe7"
                   target="__blank"
-                  className="font-serif text-blue-400 font-bold text-xl"
+                  className="font-serif text-blue-400 text-xl"
                 >
                   Github
                 </a>

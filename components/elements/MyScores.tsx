@@ -53,9 +53,10 @@ const MyScores = () => {
           <div
             className={cn(
               "col-span-1 rounded-md border-2 border-violet-500 py-6 space-y-4 hover:border-emerald-400 duration-500 cursor-pointer",
-              score.id > 3 && "md:border-red-500 md:hover:border-sky-500",
+              score.id > 3 && "lg:border-red-500 md:hover:border-sky-500",
               score.id > 2 && "border-green-500 hover:border-sky-500",
-              score.id > 4 && "border-pink-500 hover:border-sky-500"
+              score.id > 4 && "border-pink-500 hover:border-sky-500",
+              score.id === 3 && "lg:border-violet-500"
             )}
             key={index}
           >
