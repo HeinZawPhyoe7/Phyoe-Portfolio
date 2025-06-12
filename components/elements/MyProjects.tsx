@@ -6,6 +6,7 @@ import FirstImage from "@/assets/test.jpg";
 import BusTicketImage from "@/assets/BusTicket.png";
 import TodolistImage from "@/assets/Todolist.png";
 import ExpenseTracker from "@/assets/ExpenseTracker.png";
+import FaceBookClone from "@/assets/FaceBookClone.png";
 
 const MyProjects = () => {
   const myProjectList = [
@@ -34,7 +35,7 @@ const MyProjects = () => {
       description:
         "Social media app with user authentication, dynamic posts, image uploads, and offering a seamless user experience inspired by core Facebook features.",
       id: 3,
-      img: FirstImage,
+      img: FaceBookClone,
       href: "https://www.youtube.com/watch?v=ylweOuaKzXY",
       isLike: false,
       totalLikes: 38,
