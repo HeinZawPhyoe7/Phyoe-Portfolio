@@ -29,16 +29,16 @@ const MyProjects = () => {
       isLike: false,
       totalLikes: 72,
     },
-    // {
-    //   name: "Facebook Clone Project",
-    //   description:
-    //     "Social media app with user authentication, dynamic posts, image uploads, and secure content management, offering a seamless user experience inspired by core Facebook features.",
-    //   id: 3,
-    //   img: FirstImage,
-    //   href: "https://twitter.com/mannupaaji",
-    //   isLike: false,
-    //   totalLikes: 38,
-    // },
+    {
+      name: "Facebook Clone Project",
+      description:
+        "Social media app with user authentication, dynamic posts, image uploads, and offering a seamless user experience inspired by core Facebook features.",
+      id: 3,
+      img: FirstImage,
+      href: "https://www.youtube.com/watch?v=ylweOuaKzXY",
+      isLike: false,
+      totalLikes: 38,
+    },
     {
       name: "Todo List Project",
       description:
