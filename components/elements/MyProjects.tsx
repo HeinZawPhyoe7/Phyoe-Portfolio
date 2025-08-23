@@ -7,19 +7,20 @@ import BusTicketImage from "@/assets/BusTicket.png";
 import TodolistImage from "@/assets/Todolist.png";
 import ExpenseTracker from "@/assets/ExpenseTracker.png";
 import FaceBookClone from "@/assets/FaceBookClone.png";
+import Ecommerce from "@/assets/Ecommerce.png";
 
 const MyProjects = () => {
   const myProjectList = [
-    // {
-    //   name: "Ecommerce Project",
-    //   description:
-    //     "Real-time eCommerce platform with multi-role access, live product updates, and dynamic promotions for Admins, Sellers, and Users.",
-    //   id: 1,
-    //   img: FirstImage,
-    //   href: "https://twitter.com/mannupaaji",
-    //   isLike: false,
-    //   totalLikes: 42,
-    // },
+    {
+      name: "Ecommerce Project",
+      description:
+        "Real-time eCommerce platform with multi-role access, live product updates, and dynamic promotions for Admins, Sellers, and Users.",
+      id: 1,
+      img: Ecommerce,
+      href: "https://www.youtube.com/watch?v=1g4Ww9nip94",
+      isLike: false,
+      totalLikes: 42,
+    },
     {
       name: "Online Bus Tickets Project",
       description:
@@ -64,7 +65,7 @@ const MyProjects = () => {
 
   return (
     <div id="projects">
-      <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 lg:px-[20px] xl:px-[100px] px-4 md:py-0">
+      <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 lg:px-[20px] xl:px-[100px] 2xl:px-[20px] px-4 md:py-0">
         {myProjectList.map((project, index) => (
           <div key={index}>
             <ThreeDCardDemo project={project} />
